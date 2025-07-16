@@ -1,0 +1,416 @@
+{
+    "chain_data": [
+        {
+            "index": 0,
+            "timestamp": 1752682367.905423,
+            "transactions": [
+                {
+                    "transaction_id": "4cdcde2f2ff55cbe5cff8693c338b794bd8a512e6d720d3554b7fac0addf260f",
+                    "sender": "SYSTEM_INITIAL_FUND",
+                    "recipient": "9wuLehM6ANln0o3TfH/Up/Za7Ienp6IuJdXKmBfgxNQrfaZMLYq2oBgxoQI8tDrPFF/2GhVNCAhAHRz/XBKZ3w==",
+                    "amount": 10.0,
+                    "transaction_type": "USER",
+                    "signature": "SYSTEM_INITIAL_FUND",
+                    "timestamp": 1752682367.9054263
+                }
+            ],
+            "prev_hash": "0",
+            "nonce": 153,
+            "difficulty": 2,
+            "hash": "00616bc6e515fe72fb781d693de1470485aba5a39f4ebca3ee181048d54cd8b6"
+        },
+        {
+            "index": 1,
+            "timestamp": 1752682392.5146198,
+            "transactions": [
+                {
+                    "transaction_id": "a67ca489794b05ed473f85ed56466f78cf1c546577c89d6245ca51891d4d9d23",
+                    "sender": "MINING_REWARD",
+                    "recipient": "NODE_MINER_ADDRESS_123456",
+                    "amount": 10,
+                    "transaction_type": "MINING_REWARD",
+                    "signature": "MINING_REWARD_SIGNATURE",
+                    "timestamp": 1752682392.51459
+                },
+                {
+                    "transaction_id": "4138c9bf695859f2fc9c8abc2b9cd51d14f51ed9b219f3ab13d4b108fc5a7764",
+                    "sender": "SYSTEM_INITIAL_FUND",
+                    "recipient": "9wuLehM6ANln0o3TfH/Up/Za7Ienp6IuJdXKmFbgxNQrfaZMLYq2oBgxoQI8tDrPFF/2GhVNCAhAHRz/XBKZ3w==",
+                    "amount": 400000.0,
+                    "transaction_type": "SYSTEM_SIGNATURE_N/A",
+                    "signature": null,
+                    "timestamp": 1752682392.5088007
+                }
+            ],
+            "prev_hash": "00616bc6e515fe72fb781d693de1470485aba5a39f4ebca3ee181048d54cd8b6",
+            "nonce": 234,
+            "difficulty": 2,
+            "hash": "00f755b1a224d885d96a36c36ff557dd41bcf58b9c07f50fd172fa3a21cf599c"
+        },
+        {
+            "index": 2,
+            "timestamp": 1752682444.9690611,
+            "transactions": [
+                {
+                    "transaction_id": "a5321333c66b32cb3ae0ff49ce7dd13d630a31c7196087ba3897ada37a753358",
+                    "sender": "MINING_REWARD",
+                    "recipient": "NODE_MINER_ADDRESS_123456",
+                    "amount": 10,
+                    "transaction_type": "MINING_REWARD",
+                    "signature": "MINING_REWARD_SIGNATURE",
+                    "timestamp": 1752682444.96901
+                },
+                {
+                    "transaction_id": "40a660045e0868741f04958932da90387f19dd7a12cba5c7ae461f2f2954986e",
+                    "sender": "9wuLehM6ANln0o3TfH/Up/Za7Ienp6IuJdXKmFbgxNQrfaZMLYq2oBgxoQI8tDrPFF/2GhVNCAhAHRz/XBKZ3w==",
+                    "recipient": "dBMW/NcfAugSUNQhz//YwXZNnxX3zZysemI4vs0eekvpHWR8PsqdcH0wGgS4BYzNRQU9zLCN+F4ENjkB8Nz5FQ==",
+                    "amount": 444.0,
+                    "transaction_type": "DUMMY_SIGNATURE",
+                    "signature": null,
+                    "timestamp": 1752682444.9475484
+                }
+            ],
+            "prev_hash": "00f755b1a224d885d96a36c36ff557dd41bcf58b9c07f50fd172fa3a21cf599c",
+            "nonce": 263,
+            "difficulty": 2,
+            "hash": "00c312b44b3e3475a15035f909f990459d7c25a62b48ad937ade0db8607f6a8b"
+        },
+        {
+            "index": 3,
+            "timestamp": 1752683517.126873,
+            "transactions": [
+                {
+                    "transaction_id": "e2294951807ed1fe9b7a262a13822823d5e34a869c29fa09574dfb5b71e27aa3",
+                    "sender": "MINING_REWARD",
+                    "recipient": "NODE_MINER_ADDRESS_123456",
+                    "amount": 10,
+                    "transaction_type": "MINING_REWARD",
+                    "signature": "MINING_REWARD_SIGNATURE",
+                    "timestamp": 1752683517.1268442
+                },
+                {
+                    "transaction_id": "0c8f333bb00ee908cd8816f93bd44915134f5f34ea1252ed391da12226a65ffb",
+                    "sender": "SYSTEM_INITIAL_FUND",
+                    "recipient": "9wuLehM6ANln0o3TfH/Up/Za7Ienp6IuJdXKmFbgxNQrfaZMLYq2oBgxoQI8tDrPFF/2GhVNCAhAHRz/XBKZ3w==",
+                    "amount": 20000.0,
+                    "transaction_type": "SYSTEM_SIGNATURE_N/A",
+                    "signature": null,
+                    "timestamp": 1752683517.1197658
+                }
+            ],
+            "prev_hash": "00c312b44b3e3475a15035f909f990459d7c25a62b48ad937ade0db8607f6a8b",
+            "nonce": 46,
+            "difficulty": 2,
+            "hash": "00a7b9840302aadd899727d0a5d9712593fc533e4a2333d633d8b257e4040add"
+        },
+        {
+            "index": 4,
+            "timestamp": 1752683528.2308137,
+            "transactions": [
+                {
+                    "transaction_id": "a3381fa9c5fc45dc59b71da252ac572aa5845d8a36e1ffc5ffa2d2975b7cd664",
+                    "sender": "MINING_REWARD",
+                    "recipient": "NODE_MINER_ADDRESS_123456",
+                    "amount": 10,
+                    "transaction_type": "MINING_REWARD",
+                    "signature": "MINING_REWARD_SIGNATURE",
+                    "timestamp": 1752683528.2307508
+                },
+                {
+                    "transaction_id": "90c6511f4f551e4fd3868fd29470dc3e4025c41a02078b0df073fa9e197fda2b",
+                    "sender": "9wuLehM6ANln0o3TfH/Up/Za7Ienp6IuJdXKmFbgxNQrfaZMLYq2oBgxoQI8tDrPFF/2GhVNCAhAHRz/XBKZ3w==",
+                    "recipient": "K7Jb66Wj66XuTQygDHZii42KsRRBtskgYPIgMZZAteIjqXwoX+nX5MBsks6GOQxool/jMK2SgbSRfBVVOp4rBw==",
+                    "amount": 10000.0,
+                    "transaction_type": "DUMMY_SIGNATURE",
+                    "signature": null,
+                    "timestamp": 1752683528.211891
+                }
+            ],
+            "prev_hash": "00a7b9840302aadd899727d0a5d9712593fc533e4a2333d633d8b257e4040add",
+            "nonce": 443,
+            "difficulty": 2,
+            "hash": "00bd4dd21f7c3afade4edbd18fc3f5d9664b207be48f85c7460381b74aa42a0c"
+        },
+        {
+            "index": 5,
+            "timestamp": 1752683618.271814,
+            "transactions": [
+                {
+                    "transaction_id": "4af3dfa7c5cda797de971b921b94fe6fd74615b510b8694e1130f22230b22be5",
+                    "sender": "MINING_REWARD",
+                    "recipient": "NODE_MINER_ADDRESS_123456",
+                    "amount": 10,
+                    "transaction_type": "MINING_REWARD",
+                    "signature": "MINING_REWARD_SIGNATURE",
+                    "timestamp": 1752683618.2717612
+                },
+                {
+                    "transaction_id": "591e9478c5a1553724999fda7fdd113b6483d8186a44bad58105d5894b2f3d6a",
+                    "sender": "SYSTEM_INITIAL_FUND",
+                    "recipient": "K7Jb66Wj66XuTQygDHZii42KsRRBtskgYPIgMZZAteIjqXwoX+nX5MBsks6GOQxool/jMK2SgbSRfBVVOp4rBw==",
+                    "amount": 555.0,
+                    "transaction_type": "SYSTEM_SIGNATURE_N/A",
+                    "signature": null,
+                    "timestamp": 1752683618.264129
+                }
+            ],
+            "prev_hash": "00bd4dd21f7c3afade4edbd18fc3f5d9664b207be48f85c7460381b74aa42a0c",
+            "nonce": 1154,
+            "difficulty": 2,
+            "hash": "006557f40a8b559b92d884d341f53e5ef37b8e250a3001a5f924a0f232d99866"
+        },
+        {
+            "index": 6,
+            "timestamp": 1752683674.978205,
+            "transactions": [
+                {
+                    "transaction_id": "253316b6b7cc44f9d49c6e3266827e5a7ba11d7a6c2d46cdc06c72389ba55e7a",
+                    "sender": "MINING_REWARD",
+                    "recipient": "NODE_MINER_ADDRESS_123456",
+                    "amount": 10,
+                    "transaction_type": "MINING_REWARD",
+                    "signature": "MINING_REWARD_SIGNATURE",
+                    "timestamp": 1752683674.9781451
+                },
+                {
+                    "transaction_id": "a8c964745de2ef6102e5af287929560ae0d3cd732abd71caf8888c91c8963ba7",
+                    "sender": "K7Jb66Wj66XuTQygDHZii42KsRRBtskgYPIgMZZAteIjqXwoX+nX5MBsks6GOQxool/jMK2SgbSRfBVVOp4rBw==",
+                    "recipient": "9wuLehM6ANln0o3TfH/Up/Za7Ienp6IuJdXKmFbgxNQrfaZMLYq2oBgxoQI8tDrPFF/2GhVNCAhAHRz/XBKZ3w==",
+                    "amount": 4.0,
+                    "transaction_type": "DUMMY_SIGNATURE",
+                    "signature": null,
+                    "timestamp": 1752683674.9632814
+                }
+            ],
+            "prev_hash": "006557f40a8b559b92d884d341f53e5ef37b8e250a3001a5f924a0f232d99866",
+            "nonce": 221,
+            "difficulty": 2,
+            "hash": "005a71faea91feaeed17cd698766c237c1e28264477f892565daf94448ac6449"
+        },
+        {
+            "index": 7,
+            "timestamp": 1752683825.6142192,
+            "transactions": [
+                {
+                    "transaction_id": "92e44e196a39b8d423c6fb7153f00682c5ac2963e9ee9495e7bc2ed17c0678c0",
+                    "sender": "MINING_REWARD",
+                    "recipient": "NODE_MINER_ADDRESS_123456",
+                    "amount": 10,
+                    "transaction_type": "MINING_REWARD",
+                    "signature": "MINING_REWARD_SIGNATURE",
+                    "timestamp": 1752683825.614143
+                },
+                {
+                    "transaction_id": "cb72068df285b19aef7957c42b7b140a0fffd450a55d55bc830131fff1adb7d2",
+                    "sender": "SYSTEM_INITIAL_FUND",
+                    "recipient": "9wuLehM6ANln0o3TfH/Up/Za7Ienp6IuJdXKmFbgxNQrfaZMLYq2oBgxoQI8tDrPFF/2GhVNCAhAHRz/XBKZ3w==",
+                    "amount": 200000,
+                    "transaction_type": "SYSTEM_SIGNATURE_N/A",
+                    "signature": null,
+                    "timestamp": 1752683825.598122
+                }
+            ],
+            "prev_hash": "005a71faea91feaeed17cd698766c237c1e28264477f892565daf94448ac6449",
+            "nonce": 186,
+            "difficulty": 2,
+            "hash": "00bcc909dc64b1c71caecbe27f27434510c151382aa2f8c20c993f8d0c918662"
+        },
+        {
+            "index": 8,
+            "timestamp": 1752683905.5515118,
+            "transactions": [
+                {
+                    "transaction_id": "d5703c827e38891e0d9881c023aa0c1cac357e3e648e0ce7b36b4c0778662532",
+                    "sender": "MINING_REWARD",
+                    "recipient": "NODE_MINER_ADDRESS_123456",
+                    "amount": 10,
+                    "transaction_type": "MINING_REWARD",
+                    "signature": "MINING_REWARD_SIGNATURE",
+                    "timestamp": 1752683905.5514681
+                },
+                {
+                    "transaction_id": "9e0c68e6101e5e90680e64e8bb58a0d75ead990e4fee2232635f46ad16f1006f",
+                    "sender": "SYSTEM_INITIAL_FUND",
+                    "recipient": "9wuLehM6ANln0o3TfH/Up/Za7Ienp6IuJdXKmFbgxNQrfaZMLYq2oBgxoQI8tDrPFF/2GhVNCAhAHRz/XBKZ3w==",
+                    "amount": 200000,
+                    "transaction_type": "SYSTEM_SIGNATURE_N/A",
+                    "signature": null,
+                    "timestamp": 1752683905.5371737
+                }
+            ],
+            "prev_hash": "00bcc909dc64b1c71caecbe27f27434510c151382aa2f8c20c993f8d0c918662",
+            "nonce": 206,
+            "difficulty": 2,
+            "hash": "0037a790aa356d32eba3e1e5d9a012cb619ff686a1a7ad4a66f97d5b08250ba7"
+        },
+        {
+            "index": 9,
+            "timestamp": 1752683937.0542355,
+            "transactions": [
+                {
+                    "transaction_id": "27f6b71037b6b8e1226864e93ed78cbef898b773b1c81bb1c5222d1945742dee",
+                    "sender": "MINING_REWARD",
+                    "recipient": "NODE_MINER_ADDRESS_123456",
+                    "amount": 10,
+                    "transaction_type": "MINING_REWARD",
+                    "signature": "MINING_REWARD_SIGNATURE",
+                    "timestamp": 1752683937.0542011
+                },
+                {
+                    "transaction_id": "82780d8ac15af978518d68228084f00b637a1be034894cc4f6bc4b041c662d18",
+                    "sender": "SYSTEM_INITIAL_FUND",
+                    "recipient": "9wuLehM6ANln0o3TfH/Up/Za7Ienp6IuJdXKmFbgxNQrfaZMLYq2oBgxoQI8tDrPFF/2GhVNCAhAHRz/XBKZ3w==",
+                    "amount": 200000,
+                    "transaction_type": "SYSTEM_SIGNATURE_N/A",
+                    "signature": null,
+                    "timestamp": 1752683937.040098
+                }
+            ],
+            "prev_hash": "0037a790aa356d32eba3e1e5d9a012cb619ff686a1a7ad4a66f97d5b08250ba7",
+            "nonce": 15,
+            "difficulty": 2,
+            "hash": "003fa9cdeb80231129d2ae915a12765c566484db5084c33c0d12c0d8f1f6f04e"
+        },
+        {
+            "index": 10,
+            "timestamp": 1752686877.6677365,
+            "transactions": [
+                {
+                    "transaction_id": "0a0bad5c178e2d728b2b4708c5b7347825978a8abbce0d34bdf79ea08c43c4d2",
+                    "sender": "MINING_REWARD",
+                    "recipient": "NODE_MINER_ADDRESS_123456",
+                    "amount": 10,
+                    "transaction_type": "MINING_REWARD",
+                    "signature": "MINING_REWARD_SIGNATURE",
+                    "timestamp": 1752686877.6676743
+                },
+                {
+                    "transaction_id": "eb8180045b1fc5768e9f6c2f26afedd348771b5a48ac8f88cd28a322b2680093",
+                    "sender": "SYSTEM_INITIAL_FUND",
+                    "recipient": "MXv6PZ+2tq4ITj3HXUEfrRttBeUfaXo1myk/gLcs4gNrdOidia4320uJyrgmxbi0eKQrQYuzLwmXAbFOlEyC2Q==",
+                    "amount": 555.0,
+                    "transaction_type": "SYSTEM_SIGNATURE_N/A",
+                    "signature": null,
+                    "timestamp": 1752686877.6580715
+                }
+            ],
+            "prev_hash": "003fa9cdeb80231129d2ae915a12765c566484db5084c33c0d12c0d8f1f6f04e",
+            "nonce": 295,
+            "difficulty": 2,
+            "hash": "00cbe71f092859704c199983ea2d4fd1e5f9e677a8369b5e74ec19c36ae72019"
+        },
+        {
+            "index": 11,
+            "timestamp": 1752686912.2526116,
+            "transactions": [
+                {
+                    "transaction_id": "5a238c7dae0148975a905781a62235b81fe7ab1e237587f08d3a9fe758ea94b6",
+                    "sender": "MINING_REWARD",
+                    "recipient": "NODE_MINER_ADDRESS_123456",
+                    "amount": 10,
+                    "transaction_type": "MINING_REWARD",
+                    "signature": "MINING_REWARD_SIGNATURE",
+                    "timestamp": 1752686912.252566
+                },
+                {
+                    "transaction_id": "5a855e6d09783f3d1e690f4b4eda12b4470c52a188c3216a82cd1827469d0bdf",
+                    "sender": "MXv6PZ+2tq4ITj3HXUEfrRttBeUfaXo1myk/gLcs4gNrdOidia4320uJyrgmxbi0eKQrQYuzLwmXAbFOlEyC2Q==",
+                    "recipient": "LGLK8tzvv3+WyFdR2tnGYwEa7aQ1xHm2QE1d5zcT8LIRKmcBnwKAgYsLTpIM3ymuRw9CPJZfolBlWnGeyOUudw==",
+                    "amount": 50.0,
+                    "transaction_type": "DUMMY_SIGNATURE",
+                    "signature": null,
+                    "timestamp": 1752686912.2344747
+                }
+            ],
+            "prev_hash": "00cbe71f092859704c199983ea2d4fd1e5f9e677a8369b5e74ec19c36ae72019",
+            "nonce": 511,
+            "difficulty": 2,
+            "hash": "00f60993df5fa4a884f1397341a68d88e559f3609db3dfdc4feb2a4719e1096c"
+        },
+        {
+            "index": 12,
+            "timestamp": 1752686918.5331717,
+            "transactions": [
+                {
+                    "transaction_id": "4bf08f650e08a33a8e23f08fed17a66be4bc882f24093d123847a2dff05f9b29",
+                    "sender": "MINING_REWARD",
+                    "recipient": "NODE_MINER_ADDRESS_123456",
+                    "amount": 10,
+                    "transaction_type": "MINING_REWARD",
+                    "signature": "MINING_REWARD_SIGNATURE",
+                    "timestamp": 1752686918.5331287
+                },
+                {
+                    "transaction_id": "df3d632724dfeb83bb8647e893a53bdbe45736848105ab19acf1d091450630b6",
+                    "sender": "MXv6PZ+2tq4ITj3HXUEfrRttBeUfaXo1myk/gLcs4gNrdOidia4320uJyrgmxbi0eKQrQYuzLwmXAbFOlEyC2Q==",
+                    "recipient": "nVNJjdaJ1Aer+wojqKRNzmBVhN5ecp0mteVB/1PCfARqRVwz9l93PB/EdvSqoRuuFYd9gl1YGIgr/0PIrlfaYQ==",
+                    "amount": 5.0,
+                    "transaction_type": "DUMMY_SIGNATURE",
+                    "signature": null,
+                    "timestamp": 1752686918.5149736
+                }
+            ],
+            "prev_hash": "00f60993df5fa4a884f1397341a68d88e559f3609db3dfdc4feb2a4719e1096c",
+            "nonce": 537,
+            "difficulty": 2,
+            "hash": "00f22a29dc78d6133b839d2ab3abe75a9096cacd2e71e98c487b8d31053c6736"
+        },
+        {
+            "index": 13,
+            "timestamp": 1752687014.8547525,
+            "transactions": [
+                {
+                    "transaction_id": "174fb13fa567cf9999417819e6b80ddd74e0a41159eb9e1412826af973216e73",
+                    "sender": "MINING_REWARD",
+                    "recipient": "NODE_MINER_ADDRESS_123456",
+                    "amount": 10,
+                    "transaction_type": "MINING_REWARD",
+                    "signature": "MINING_REWARD_SIGNATURE",
+                    "timestamp": 1752687014.8547094
+                },
+                {
+                    "transaction_id": "ffa3b528c27fc0a24653b6f56c7e7844bdf5ecc444208ba1d52ec2ffa15d7ff8",
+                    "sender": "SYSTEM_INITIAL_FUND",
+                    "recipient": "nVNJjdaJ1Aer+wojqKRNzmBVhN5ecp0mteVB/1PCfARqRVwz9l93PB/EdvSqoRuuFYd9gl1YGIgr/0PIrlfaYQ==",
+                    "amount": 200000,
+                    "transaction_type": "SYSTEM_SIGNATURE_N/A",
+                    "signature": null,
+                    "timestamp": 1752687014.8336296
+                }
+            ],
+            "prev_hash": "00f22a29dc78d6133b839d2ab3abe75a9096cacd2e71e98c487b8d31053c6736",
+            "nonce": 221,
+            "difficulty": 2,
+            "hash": "009b9002fbce87030ef63efd44a39f0fce7d30836c62b661c15ee95dca4cc6f3"
+        },
+        {
+            "index": 14,
+            "timestamp": 1752687056.878073,
+            "transactions": [
+                {
+                    "transaction_id": "214902b370e478ec09ea6fa66e7487f9bd1af2d96c1fcaef58cafda71e7b7b10",
+                    "sender": "MINING_REWARD",
+                    "recipient": "NODE_MINER_ADDRESS_123456",
+                    "amount": 10,
+                    "transaction_type": "MINING_REWARD",
+                    "signature": "MINING_REWARD_SIGNATURE",
+                    "timestamp": 1752687056.8780105
+                },
+                {
+                    "transaction_id": "03919d7aff9bacf2ff3ed4be375976c65d2e94823801826fb15285287515a81e",
+                    "sender": "nVNJjdaJ1Aer+wojqKRNzmBVhN5ecp0mteVB/1PCfARqRVwz9l93PB/EdvSqoRuuFYd9gl1YGIgr/0PIrlfaYQ==",
+                    "recipient": "MXv6PZ+2tq4ITj3HXUEfrRttBeUfaXo1myk/gLcs4gNrdOidia4320uJyrgmxbi0eKQrQYuzLwmXAbFOlEyC2Q==",
+                    "amount": 1000.0,
+                    "transaction_type": "DUMMY_SIGNATURE",
+                    "signature": null,
+                    "timestamp": 1752687056.8579612
+                }
+            ],
+            "prev_hash": "009b9002fbce87030ef63efd44a39f0fce7d30836c62b661c15ee95dca4cc6f3",
+            "nonce": 107,
+            "difficulty": 2,
+            "hash": "004379b0db0f369b4cc71361dc09417b58ee1f7e8d9871c6718199577395db2d"
+        }
+    ],
+    "chain_hash": "3bb352ac3a183638923690b2f4637e21074b6da0b3d74ac6bc96803d580119e0"
+}
