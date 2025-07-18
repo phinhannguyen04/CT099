@@ -4541,3 +4541,127 @@ ecdsa.keys.BadSignatureError: Signature verification failed
 2025-07-17 00:29:08,438 - __main__ - INFO - Node đang tắt, lưu trạng thái blockchain cuối cùng.
 2025-07-17 00:29:08,438 - __main__ - INFO - Đang lưu chuỗi với 13 block vào file.
 2025-07-17 00:29:08,444 - blockchain_core.blockchain - INFO - Blockchain đã lưu vào 'C:\Code\CT099\blockchain_node\node_blockchain.json'.
+2025-07-17 00:29:10,704 - __main__ - INFO - Khởi động Blockchain Node...
+2025-07-17 00:29:10,706 - __main__ - INFO - Khởi động Blockchain Node...
+2025-07-17 00:29:10,706 - __main__ - INFO - Kiểm tra trạng thái Blockchain...
+2025-07-17 00:29:10,707 - blockchain_core.block - INFO - Bắt đầu đào block #0 với độ khó 2 (prefix: '00')...
+2025-07-17 00:29:10,711 - blockchain_core.block - INFO - Đã đào thành công block #0 với nonce 307, hash: 00f9639f44...
+2025-07-17 00:29:10,711 - blockchain_core.blockchain - INFO - Genesis Block được tạo: 00f9639f44...
+2025-07-17 00:29:10,713 - blockchain_core.blockchain - INFO - Đã tải blockchain từ 'C:\Code\CT099\blockchain_node\node_blockchain.json' và kiểm tra thành công.
+2025-07-17 00:29:10,713 - blockchain_core.blockchain - INFO - Bắt đầu kiểm tra tính hợp lệ của chuỗi...
+2025-07-17 00:29:10,713 - blockchain_core.blockchain - INFO - Kiểm tra chuỗi thành công: Blockchain hợp lệ.
+2025-07-17 00:29:10,714 - __main__ - INFO - Đã tải Blockchain thành công từ 'C:\Code\CT099\blockchain_node\node_blockchain.json'. Chuỗi có 13 block.
+2025-07-17 00:29:10,721 - __main__ - INFO - Node sẽ chạy trên http://127.0.0.1:5000
+2025-07-17 00:29:11,608 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.4.53:5000
+2025-07-17 00:29:11,609 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-17 00:29:22,846 - __main__ - INFO - Yêu cầu lấy toàn bộ chuỗi blockchain.
+2025-07-17 00:29:22,847 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 00:29:22] "GET /chain HTTP/1.1" 200 -
+2025-07-17 00:29:22,853 - __main__ - INFO - Yêu cầu lấy toàn bộ chuỗi blockchain.
+2025-07-17 00:29:22,856 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 00:29:22] "GET /chain HTTP/1.1" 200 -
+2025-07-17 00:29:22,861 - __main__ - INFO - Yêu cầu lấy toàn bộ chuỗi blockchain.
+2025-07-17 00:29:22,864 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 00:29:22] "GET /chain HTTP/1.1" 200 -
+2025-07-17 00:29:42,562 - __main__ - INFO - Yêu cầu lấy toàn bộ chuỗi blockchain.
+2025-07-17 00:29:42,563 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 00:29:42] "GET /chain HTTP/1.1" 200 -
+2025-07-17 00:29:59,101 - __main__ - INFO - Yêu cầu lấy toàn bộ chuỗi blockchain.
+2025-07-17 00:29:59,102 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 00:29:59] "GET /chain HTTP/1.1" 200 -
+2025-07-17 00:30:14,833 - __main__ - INFO - API: Nhận yêu cầu giao dịch mới: {'sender': 'SYSTEM_INITIAL_FUND', 'receiver': 'nVNJjdaJ1Aer+wojqKRNzmBVhN5ecp0mteVB/1PCfARqRVwz9l93PB/EdvSqoRuuFYd9gl1YGIgr/0PIrlfaYQ==', 'amount': 200000, 'signature': 'SYSTEM_SIGNATURE_N/A'}
+2025-07-17 00:30:14,833 - blockchain_core.blockchain - INFO - Giao dịch từ SYSTEM_INI... đến nVNJjdaJ1A... với số tiền 200000 đã được thêm vào pool. (Hiện có 1 giao dịch chờ xử lý)
+2025-07-17 00:30:14,837 - blockchain_core.blockchain - INFO - Blockchain đã lưu vào 'C:\Code\CT099\blockchain_node\node_blockchain.json'.
+2025-07-17 00:30:14,838 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 00:30:14] "[35m[1mPOST /transactions/new HTTP/1.1[0m" 201 -
+2025-07-17 00:30:14,854 - blockchain_core.block - INFO - Bắt đầu đào block #13 với độ khó 2 (prefix: '00')...
+2025-07-17 00:30:14,862 - blockchain_core.block - INFO - Đã đào thành công block #13 với nonce 221, hash: 009b9002fb...
+2025-07-17 00:30:14,862 - blockchain_core.blockchain - INFO - Block mới #13 đã được đào bởi NODE_MINER... với hash: 009b9002fb... Chứa 2 giao dịch.
+2025-07-17 00:30:14,866 - blockchain_core.blockchain - INFO - Blockchain đã lưu vào 'C:\Code\CT099\blockchain_node\node_blockchain.json'.
+2025-07-17 00:30:14,866 - __main__ - INFO - API: Đã đào block #13. Hash: 009b9002fb...
+2025-07-17 00:30:14,867 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 00:30:14] "GET /mine HTTP/1.1" 200 -
+2025-07-17 00:30:22,858 - __main__ - INFO - Yêu cầu lấy toàn bộ chuỗi blockchain.
+2025-07-17 00:30:22,859 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 00:30:22] "GET /chain HTTP/1.1" 200 -
+2025-07-17 00:30:33,730 - __main__ - INFO - Yêu cầu lấy toàn bộ chuỗi blockchain.
+2025-07-17 00:30:33,730 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 00:30:33] "GET /chain HTTP/1.1" 200 -
+2025-07-17 00:30:38,736 - __main__ - INFO - Yêu cầu lấy toàn bộ chuỗi blockchain.
+2025-07-17 00:30:38,736 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 00:30:38] "GET /chain HTTP/1.1" 200 -
+2025-07-17 00:30:38,741 - __main__ - INFO - Yêu cầu lấy toàn bộ chuỗi blockchain.
+2025-07-17 00:30:38,742 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 00:30:38] "GET /chain HTTP/1.1" 200 -
+2025-07-17 00:30:38,746 - __main__ - INFO - Yêu cầu lấy toàn bộ chuỗi blockchain.
+2025-07-17 00:30:38,747 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 00:30:38] "GET /chain HTTP/1.1" 200 -
+2025-07-17 00:30:56,838 - __main__ - INFO - Yêu cầu lấy toàn bộ chuỗi blockchain.
+2025-07-17 00:30:56,840 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 00:30:56] "GET /chain HTTP/1.1" 200 -
+2025-07-17 00:30:56,857 - __main__ - INFO - API: Nhận yêu cầu giao dịch mới: {'sender': 'nVNJjdaJ1Aer+wojqKRNzmBVhN5ecp0mteVB/1PCfARqRVwz9l93PB/EdvSqoRuuFYd9gl1YGIgr/0PIrlfaYQ==', 'receiver': 'MXv6PZ+2tq4ITj3HXUEfrRttBeUfaXo1myk/gLcs4gNrdOidia4320uJyrgmxbi0eKQrQYuzLwmXAbFOlEyC2Q==', 'amount': 1000.0, 'signature': 'DUMMY_SIGNATURE'}
+2025-07-17 00:30:56,858 - blockchain_core.blockchain - INFO - Giao dịch từ nVNJjdaJ1A... đến MXv6PZ+2tq... với số tiền 1000.0 đã được thêm vào pool. (Hiện có 1 giao dịch chờ xử lý)
+2025-07-17 00:30:56,863 - blockchain_core.blockchain - INFO - Blockchain đã lưu vào 'C:\Code\CT099\blockchain_node\node_blockchain.json'.
+2025-07-17 00:30:56,864 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 00:30:56] "[35m[1mPOST /transactions/new HTTP/1.1[0m" 201 -
+2025-07-17 00:30:56,878 - blockchain_core.block - INFO - Bắt đầu đào block #14 với độ khó 2 (prefix: '00')...
+2025-07-17 00:30:56,884 - blockchain_core.block - INFO - Đã đào thành công block #14 với nonce 107, hash: 004379b0db...
+2025-07-17 00:30:56,884 - blockchain_core.blockchain - INFO - Block mới #14 đã được đào bởi NODE_MINER... với hash: 004379b0db... Chứa 2 giao dịch.
+2025-07-17 00:30:56,889 - blockchain_core.blockchain - INFO - Blockchain đã lưu vào 'C:\Code\CT099\blockchain_node\node_blockchain.json'.
+2025-07-17 00:30:56,889 - __main__ - INFO - API: Đã đào block #14. Hash: 004379b0db...
+2025-07-17 00:30:56,890 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 00:30:56] "GET /mine HTTP/1.1" 200 -
+2025-07-17 00:31:18,134 - __main__ - INFO - Yêu cầu lấy toàn bộ chuỗi blockchain.
+2025-07-17 00:31:18,135 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 00:31:18] "GET /chain HTTP/1.1" 200 -
+2025-07-17 00:32:02,492 - __main__ - INFO - Yêu cầu lấy toàn bộ chuỗi blockchain.
+2025-07-17 00:32:02,493 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 00:32:02] "GET /chain HTTP/1.1" 200 -
+2025-07-17 00:32:02,497 - __main__ - INFO - Yêu cầu lấy toàn bộ chuỗi blockchain.
+2025-07-17 00:32:02,498 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 00:32:02] "GET /chain HTTP/1.1" 200 -
+2025-07-17 00:32:02,502 - __main__ - INFO - Yêu cầu lấy toàn bộ chuỗi blockchain.
+2025-07-17 00:32:02,504 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 00:32:02] "GET /chain HTTP/1.1" 200 -
+2025-07-17 00:32:16,493 - __main__ - INFO - Raw address received: LGLK8tzvv3+WyFdR2tnGYwEa7aQ1xHm2QE1d5zcT8LIRKmcBnwKAgYsLTpIM3ymuRw9CPJZfolBlWnGeyOUudw==
+2025-07-17 00:32:16,494 - __main__ - INFO - Decoded address: LGLK8tzvv3 WyFdR2tnGYwEa7aQ1xHm2QE1d5zcT8LIRKmcBnwKAgYsLTpIM3ymuRw9CPJZfolBlWnGeyOUudw==
+2025-07-17 00:32:16,494 - __main__ - INFO - Block 0 has 1 transactions
+2025-07-17 00:32:16,495 - __main__ - INFO -   Transaction 0: SYSTEM_INITIAL_FUND -> 9wuLehM6ANln0o3TfH/Up/Za7Ienp6IuJdXKmBfgxNQrfaZMLYq2oBgxoQI8tDrPFF/2GhVNCAhAHRz/XBKZ3w==, amount: 10.0
+2025-07-17 00:32:16,495 - __main__ - INFO - Block 1 has 2 transactions
+2025-07-17 00:32:16,495 - __main__ - INFO -   Transaction 0: MINING_REWARD -> NODE_MINER_ADDRESS_123456, amount: 10
+2025-07-17 00:32:16,496 - __main__ - INFO -   Transaction 1: SYSTEM_INITIAL_FUND -> 9wuLehM6ANln0o3TfH/Up/Za7Ienp6IuJdXKmFbgxNQrfaZMLYq2oBgxoQI8tDrPFF/2GhVNCAhAHRz/XBKZ3w==, amount: 400000.0
+2025-07-17 00:32:16,496 - __main__ - INFO - Block 2 has 2 transactions
+2025-07-17 00:32:16,496 - __main__ - INFO -   Transaction 0: MINING_REWARD -> NODE_MINER_ADDRESS_123456, amount: 10
+2025-07-17 00:32:16,497 - __main__ - INFO -   Transaction 1: 9wuLehM6ANln0o3TfH/Up/Za7Ienp6IuJdXKmFbgxNQrfaZMLYq2oBgxoQI8tDrPFF/2GhVNCAhAHRz/XBKZ3w== -> dBMW/NcfAugSUNQhz//YwXZNnxX3zZysemI4vs0eekvpHWR8PsqdcH0wGgS4BYzNRQU9zLCN+F4ENjkB8Nz5FQ==, amount: 444.0
+2025-07-17 00:32:16,497 - __main__ - INFO - Block 3 has 2 transactions
+2025-07-17 00:32:16,497 - __main__ - INFO -   Transaction 0: MINING_REWARD -> NODE_MINER_ADDRESS_123456, amount: 10
+2025-07-17 00:32:16,498 - __main__ - INFO -   Transaction 1: SYSTEM_INITIAL_FUND -> 9wuLehM6ANln0o3TfH/Up/Za7Ienp6IuJdXKmFbgxNQrfaZMLYq2oBgxoQI8tDrPFF/2GhVNCAhAHRz/XBKZ3w==, amount: 20000.0
+2025-07-17 00:32:16,498 - __main__ - INFO - Block 4 has 2 transactions
+2025-07-17 00:32:16,499 - __main__ - INFO -   Transaction 0: MINING_REWARD -> NODE_MINER_ADDRESS_123456, amount: 10
+2025-07-17 00:32:16,499 - __main__ - INFO -   Transaction 1: 9wuLehM6ANln0o3TfH/Up/Za7Ienp6IuJdXKmFbgxNQrfaZMLYq2oBgxoQI8tDrPFF/2GhVNCAhAHRz/XBKZ3w== -> K7Jb66Wj66XuTQygDHZii42KsRRBtskgYPIgMZZAteIjqXwoX+nX5MBsks6GOQxool/jMK2SgbSRfBVVOp4rBw==, amount: 10000.0
+2025-07-17 00:32:16,499 - __main__ - INFO - Block 5 has 2 transactions
+2025-07-17 00:32:16,500 - __main__ - INFO -   Transaction 0: MINING_REWARD -> NODE_MINER_ADDRESS_123456, amount: 10
+2025-07-17 00:32:16,500 - __main__ - INFO -   Transaction 1: SYSTEM_INITIAL_FUND -> K7Jb66Wj66XuTQygDHZii42KsRRBtskgYPIgMZZAteIjqXwoX+nX5MBsks6GOQxool/jMK2SgbSRfBVVOp4rBw==, amount: 555.0
+2025-07-17 00:32:16,500 - __main__ - INFO - Block 6 has 2 transactions
+2025-07-17 00:32:16,501 - __main__ - INFO -   Transaction 0: MINING_REWARD -> NODE_MINER_ADDRESS_123456, amount: 10
+2025-07-17 00:32:16,501 - __main__ - INFO -   Transaction 1: K7Jb66Wj66XuTQygDHZii42KsRRBtskgYPIgMZZAteIjqXwoX+nX5MBsks6GOQxool/jMK2SgbSRfBVVOp4rBw== -> 9wuLehM6ANln0o3TfH/Up/Za7Ienp6IuJdXKmFbgxNQrfaZMLYq2oBgxoQI8tDrPFF/2GhVNCAhAHRz/XBKZ3w==, amount: 4.0
+2025-07-17 00:32:16,501 - __main__ - INFO - Block 7 has 2 transactions
+2025-07-17 00:32:16,502 - __main__ - INFO -   Transaction 0: MINING_REWARD -> NODE_MINER_ADDRESS_123456, amount: 10
+2025-07-17 00:32:16,502 - __main__ - INFO -   Transaction 1: SYSTEM_INITIAL_FUND -> 9wuLehM6ANln0o3TfH/Up/Za7Ienp6IuJdXKmFbgxNQrfaZMLYq2oBgxoQI8tDrPFF/2GhVNCAhAHRz/XBKZ3w==, amount: 200000
+2025-07-17 00:32:16,502 - __main__ - INFO - Block 8 has 2 transactions
+2025-07-17 00:32:16,503 - __main__ - INFO -   Transaction 0: MINING_REWARD -> NODE_MINER_ADDRESS_123456, amount: 10
+2025-07-17 00:32:16,503 - __main__ - INFO -   Transaction 1: SYSTEM_INITIAL_FUND -> 9wuLehM6ANln0o3TfH/Up/Za7Ienp6IuJdXKmFbgxNQrfaZMLYq2oBgxoQI8tDrPFF/2GhVNCAhAHRz/XBKZ3w==, amount: 200000
+2025-07-17 00:32:16,503 - __main__ - INFO - Block 9 has 2 transactions
+2025-07-17 00:32:16,503 - __main__ - INFO -   Transaction 0: MINING_REWARD -> NODE_MINER_ADDRESS_123456, amount: 10
+2025-07-17 00:32:16,504 - __main__ - INFO -   Transaction 1: SYSTEM_INITIAL_FUND -> 9wuLehM6ANln0o3TfH/Up/Za7Ienp6IuJdXKmFbgxNQrfaZMLYq2oBgxoQI8tDrPFF/2GhVNCAhAHRz/XBKZ3w==, amount: 200000
+2025-07-17 00:32:16,504 - __main__ - INFO - Block 10 has 2 transactions
+2025-07-17 00:32:16,504 - __main__ - INFO -   Transaction 0: MINING_REWARD -> NODE_MINER_ADDRESS_123456, amount: 10
+2025-07-17 00:32:16,505 - __main__ - INFO -   Transaction 1: SYSTEM_INITIAL_FUND -> MXv6PZ+2tq4ITj3HXUEfrRttBeUfaXo1myk/gLcs4gNrdOidia4320uJyrgmxbi0eKQrQYuzLwmXAbFOlEyC2Q==, amount: 555.0
+2025-07-17 00:32:16,505 - __main__ - INFO - Block 11 has 2 transactions
+2025-07-17 00:32:16,505 - __main__ - INFO -   Transaction 0: MINING_REWARD -> NODE_MINER_ADDRESS_123456, amount: 10
+2025-07-17 00:32:16,506 - __main__ - INFO -   Transaction 1: MXv6PZ+2tq4ITj3HXUEfrRttBeUfaXo1myk/gLcs4gNrdOidia4320uJyrgmxbi0eKQrQYuzLwmXAbFOlEyC2Q== -> LGLK8tzvv3+WyFdR2tnGYwEa7aQ1xHm2QE1d5zcT8LIRKmcBnwKAgYsLTpIM3ymuRw9CPJZfolBlWnGeyOUudw==, amount: 50.0
+2025-07-17 00:32:16,506 - __main__ - INFO - Block 12 has 2 transactions
+2025-07-17 00:32:16,506 - __main__ - INFO -   Transaction 0: MINING_REWARD -> NODE_MINER_ADDRESS_123456, amount: 10
+2025-07-17 00:32:16,507 - __main__ - INFO -   Transaction 1: MXv6PZ+2tq4ITj3HXUEfrRttBeUfaXo1myk/gLcs4gNrdOidia4320uJyrgmxbi0eKQrQYuzLwmXAbFOlEyC2Q== -> nVNJjdaJ1Aer+wojqKRNzmBVhN5ecp0mteVB/1PCfARqRVwz9l93PB/EdvSqoRuuFYd9gl1YGIgr/0PIrlfaYQ==, amount: 5.0
+2025-07-17 00:32:16,507 - __main__ - INFO - Block 13 has 2 transactions
+2025-07-17 00:32:16,507 - __main__ - INFO -   Transaction 0: MINING_REWARD -> NODE_MINER_ADDRESS_123456, amount: 10
+2025-07-17 00:32:16,508 - __main__ - INFO -   Transaction 1: SYSTEM_INITIAL_FUND -> nVNJjdaJ1Aer+wojqKRNzmBVhN5ecp0mteVB/1PCfARqRVwz9l93PB/EdvSqoRuuFYd9gl1YGIgr/0PIrlfaYQ==, amount: 200000
+2025-07-17 00:32:16,508 - __main__ - INFO - Block 14 has 2 transactions
+2025-07-17 00:32:16,508 - __main__ - INFO -   Transaction 0: MINING_REWARD -> NODE_MINER_ADDRESS_123456, amount: 10
+2025-07-17 00:32:16,508 - __main__ - INFO -   Transaction 1: nVNJjdaJ1Aer+wojqKRNzmBVhN5ecp0mteVB/1PCfARqRVwz9l93PB/EdvSqoRuuFYd9gl1YGIgr/0PIrlfaYQ== -> MXv6PZ+2tq4ITj3HXUEfrRttBeUfaXo1myk/gLcs4gNrdOidia4320uJyrgmxbi0eKQrQYuzLwmXAbFOlEyC2Q==, amount: 1000.0
+2025-07-17 00:32:16,509 - __main__ - INFO - API: Yêu cầu số dư cho địa chỉ: LGLK8tzvv3 WyFdR2tnGYwEa7aQ1xHm2QE1d5zcT8LIRKmcBnwKAgYsLTpIM3ymuRw9CPJZfolBlWnGeyOUudw==
+2025-07-17 00:32:16,509 - __main__ - INFO - API: Số dư cho LGLK8tzvv3 WyFdR2tnGYwEa7aQ1xHm2QE1d5zcT8LIRKmcBnwKAgYsLTpIM3ymuRw9CPJZfolBlWnGeyOUudw==: 0
+2025-07-17 00:32:16,509 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 00:32:16] "GET /balance/LGLK8tzvv3+WyFdR2tnGYwEa7aQ1xHm2QE1d5zcT8LIRKmcBnwKAgYsLTpIM3ymuRw9CPJZfolBlWnGeyOUudw== HTTP/1.1" 200 -
+2025-07-17 00:32:40,178 - __main__ - INFO - Yêu cầu lấy toàn bộ chuỗi blockchain.
+2025-07-17 00:32:40,179 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 00:32:40] "GET /chain HTTP/1.1" 200 -
+2025-07-17 00:32:40,183 - __main__ - INFO - Yêu cầu lấy toàn bộ chuỗi blockchain.
+2025-07-17 00:32:40,185 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 00:32:40] "GET /chain HTTP/1.1" 200 -
+2025-07-17 00:32:40,189 - __main__ - INFO - Yêu cầu lấy toàn bộ chuỗi blockchain.
+2025-07-17 00:32:40,192 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 00:32:40] "GET /chain HTTP/1.1" 200 -
+2025-07-17 00:49:15,565 - __main__ - INFO - Node đang tắt, lưu trạng thái blockchain cuối cùng.
+2025-07-17 00:49:15,566 - __main__ - INFO - Đang lưu chuỗi với 15 block vào file.
+2025-07-17 00:49:15,575 - blockchain_core.blockchain - INFO - Blockchain đã lưu vào 'C:\Code\CT099\blockchain_node\node_blockchain.json'.
