@@ -33,7 +33,7 @@ python -m blockchain_node.node --port 5000
 > Tiến hành download Postman tại dường dẫn [Download Postman To Test API](https://www.postman.com/downloads/)
 
 Sau khi run Postman 
-- Tải Postman Collection tại đường dẫn [Postman Collection](https://drive.google.com/file/d/1N4wh7FvCUDh4oEcChhW3Ps2Kida1o4-L/view?usp=sharing)
+- Tải Postman Collection tại đường dẫn [Postman Collection](https://drive.google.com/file/d/1HM4uE7ctzZ0aqX2CfRNAZ_0zLcNBbB3m/view?usp=sharing)
 - Tiến hành import collection [How to Import Postman Collections in 2025 (Step-by-Step Guide)](https://www.youtube.com/watch?v=-4CNWIPJDgo)
 - Run các API
 
