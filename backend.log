@@ -1744,3 +1744,130 @@
 2025-07-17 00:28:43,689 - backend.services.blockchain_client - INFO - Calculated balance for nVNJjdaJ1Aer+wojqKRNzmBVhN5ecp0mteVB/1PCfARqRVwz9l93PB/EdvSqoRuuFYd9gl1YGIgr/0PIrlfaYQ==: 5.0
 2025-07-17 00:28:43,689 - backend.routes.user - INFO - Đã trả về danh sách 3 người dùng.
 2025-07-17 00:28:43,690 - werkzeug - INFO - 127.0.0.1 - - [17/Jul/2025 00:28:43] "GET /users/ HTTP/1.1" 200 -
+2025-07-18 16:07:13,620 - __main__ - INFO - Khởi động Backend Bank App...
+2025-07-18 16:07:13,694 - __main__ - INFO - Backend Flask App đang chạy trên http://127.0.0.1:8000
+2025-07-18 16:07:13,886 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-07-18 16:07:13,887 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-18 16:07:13,890 - werkzeug - INFO -  * Restarting with stat
+2025-07-18 16:07:17,022 - __main__ - INFO - Khởi động Backend Bank App...
+2025-07-18 16:07:17,115 - __main__ - INFO - Backend Flask App đang chạy trên http://127.0.0.1:8000
+2025-07-18 16:07:17,215 - werkzeug - WARNING -  * Debugger is active!
+2025-07-18 16:07:17,223 - werkzeug - INFO -  * Debugger PIN: 313-600-448
+2025-07-18 16:10:27,773 - backend.services.auth_service - WARNING - Đăng ký thất bại: Tên người dùng 'nhan' đã tồn tại.
+2025-07-18 16:10:27,777 - werkzeug - INFO - 127.0.0.1 - - [18/Jul/2025 16:10:27] "[31m[1mPOST /auth/register HTTP/1.1[0m" 409 -
+2025-07-18 16:10:42,142 - werkzeug - INFO - 127.0.0.1 - - [18/Jul/2025 16:10:42] "[31m[1mGET /auth/profile HTTP/1.1[0m" 401 -
+2025-07-18 16:11:03,092 - backend.services.auth_service - INFO - Người dùng 'nhan' đăng nhập thành công.
+2025-07-18 16:11:03,093 - backend.routes.auth - INFO - User nhan (ID: 1) logged in, session['user_id'] set.
+2025-07-18 16:11:03,096 - werkzeug - INFO - 127.0.0.1 - - [18/Jul/2025 16:11:03] "POST /auth/login HTTP/1.1" 200 -
+2025-07-18 16:11:10,399 - backend.services.blockchain_client - INFO - Blockchain Client được khởi tạo, kết nối tới Node: http://127.0.0.1:5000
+2025-07-18 16:11:10,421 - backend.services.blockchain_client - INFO - Calculated balance for MXv6PZ+2tq4ITj3HXUEfrRttBeUfaXo1myk/gLcs4gNrdOidia4320uJyrgmxbi0eKQrQYuzLwmXAbFOlEyC2Q==: 1500.0
+2025-07-18 16:11:10,425 - werkzeug - INFO - 127.0.0.1 - - [18/Jul/2025 16:11:10] "GET /auth/profile HTTP/1.1" 200 -
+2025-07-18 16:12:00,259 - werkzeug - INFO - 127.0.0.1 - - [18/Jul/2025 16:12:00] "[33mGET /user HTTP/1.1[0m" 404 -
+2025-07-18 16:12:13,833 - werkzeug - INFO - 127.0.0.1 - - [18/Jul/2025 16:12:13] "[32mGET /users HTTP/1.1[0m" 308 -
+2025-07-18 16:12:13,841 - backend.services.blockchain_client - INFO - Blockchain Client được khởi tạo, kết nối tới Node: http://127.0.0.1:5000
+2025-07-18 16:12:13,870 - backend.services.blockchain_client - INFO - Calculated balance for MXv6PZ+2tq4ITj3HXUEfrRttBeUfaXo1myk/gLcs4gNrdOidia4320uJyrgmxbi0eKQrQYuzLwmXAbFOlEyC2Q==: 1500.0
+2025-07-18 16:12:13,928 - backend.services.blockchain_client - INFO - Calculated balance for LGLK8tzvv3+WyFdR2tnGYwEa7aQ1xHm2QE1d5zcT8LIRKmcBnwKAgYsLTpIM3ymuRw9CPJZfolBlWnGeyOUudw==: 50.0
+2025-07-18 16:12:13,956 - backend.services.blockchain_client - INFO - Calculated balance for nVNJjdaJ1Aer+wojqKRNzmBVhN5ecp0mteVB/1PCfARqRVwz9l93PB/EdvSqoRuuFYd9gl1YGIgr/0PIrlfaYQ==: 199005.0
+2025-07-18 16:12:13,961 - backend.routes.user - INFO - Đã trả về danh sách 3 người dùng.
+2025-07-18 16:12:13,970 - werkzeug - INFO - 127.0.0.1 - - [18/Jul/2025 16:12:13] "GET /users/ HTTP/1.1" 200 -
+2025-07-18 16:12:35,764 - backend.services.blockchain_client - INFO - Blockchain Client được khởi tạo, kết nối tới Node: http://127.0.0.1:5000
+2025-07-18 16:12:35,779 - backend.services.blockchain_client - INFO - Calculated balance for MXv6PZ+2tq4ITj3HXUEfrRttBeUfaXo1myk/gLcs4gNrdOidia4320uJyrgmxbi0eKQrQYuzLwmXAbFOlEyC2Q==: 1500.0
+2025-07-18 16:12:35,783 - backend.routes.user - INFO - Đã trả về thông tin người dùng: nhan (ID: 1).
+2025-07-18 16:12:35,785 - werkzeug - INFO - 127.0.0.1 - - [18/Jul/2025 16:12:35] "GET /users/1 HTTP/1.1" 200 -
+2025-07-18 16:12:47,736 - backend.routes.user - WARNING - Truy vấn thông tin người dùng với ID '9999' không tìm thấy.
+2025-07-18 16:12:47,738 - werkzeug - INFO - 127.0.0.1 - - [18/Jul/2025 16:12:47] "[33mGET /users/9999 HTTP/1.1[0m" 404 -
+2025-07-18 16:13:11,161 - backend.services.blockchain_client - INFO - Calculated balance for MXv6PZ+2tq4ITj3HXUEfrRttBeUfaXo1myk/gLcs4gNrdOidia4320uJyrgmxbi0eKQrQYuzLwmXAbFOlEyC2Q==: 1500.0
+2025-07-18 16:13:11,162 - werkzeug - INFO - 127.0.0.1 - - [18/Jul/2025 16:13:11] "GET /wallet/info HTTP/1.1" 200 -
+2025-07-18 16:13:30,325 - backend.services.blockchain_client - INFO - Calculated balance for MXv6PZ+2tq4ITj3HXUEfrRttBeUfaXo1myk/gLcs4gNrdOidia4320uJyrgmxbi0eKQrQYuzLwmXAbFOlEyC2Q==: 1500.0
+2025-07-18 16:13:30,328 - werkzeug - INFO - 127.0.0.1 - - [18/Jul/2025 16:13:30] "GET /wallet/info/1 HTTP/1.1" 200 -
+2025-07-18 16:14:38,604 - backend.services.blockchain_client - INFO - Phản hồi từ Node: Status Code=201, Body={"message":"Giao d\u1ecbch s\u1ebd \u0111\u01b0\u1ee3c th\u00eam v\u00e0o Block 15"}
+
+2025-07-18 16:14:38,613 - backend.services.blockchain_client - INFO - Đã gửi giao dịch tới Node: Giao dịch sẽ được thêm vào Block 15
+2025-07-18 16:14:38,706 - backend.services.blockchain_client - INFO - Đã kích hoạt đào block trên Node: Block mới đã được đào và lưu!
+2025-07-18 16:14:38,721 - werkzeug - INFO - 127.0.0.1 - - [18/Jul/2025 16:14:38] "POST /wallet/credit-card/issue HTTP/1.1" 200 -
+2025-07-18 16:14:50,439 - backend.services.blockchain_client - INFO - Calculated balance for MXv6PZ+2tq4ITj3HXUEfrRttBeUfaXo1myk/gLcs4gNrdOidia4320uJyrgmxbi0eKQrQYuzLwmXAbFOlEyC2Q==: 201500.0
+2025-07-18 16:14:50,453 - werkzeug - INFO - 127.0.0.1 - - [18/Jul/2025 16:14:50] "GET /wallet/info HTTP/1.1" 200 -
+2025-07-19 08:24:50,779 - backend.services.auth_service - INFO - Người dùng 'duy' đã đăng ký thành công với ví blockchain: SvGmTCe2b4...
+2025-07-19 08:24:50,781 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 08:24:50] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-07-19 08:24:55,970 - backend.services.auth_service - INFO - Người dùng 'toan' đã đăng ký thành công với ví blockchain: 0VtlYI2mXi...
+2025-07-19 08:24:55,971 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 08:24:55] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-07-19 08:25:03,448 - backend.services.auth_service - INFO - Người dùng 'qkiet' đã đăng ký thành công với ví blockchain: tvlH1K5vci...
+2025-07-19 08:25:03,449 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 08:25:03] "[35m[1mPOST /auth/register HTTP/1.1[0m" 201 -
+2025-07-19 08:25:13,789 - backend.services.auth_service - INFO - Người dùng 'qkiet' đăng nhập thành công.
+2025-07-19 08:25:13,790 - backend.routes.auth - INFO - User qkiet (ID: 6) logged in, session['user_id'] set.
+2025-07-19 08:25:13,793 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 08:25:13] "POST /auth/login HTTP/1.1" 200 -
+2025-07-19 08:25:19,042 - backend.services.blockchain_client - INFO - Blockchain Client được khởi tạo, kết nối tới Node: http://127.0.0.1:5000
+2025-07-19 08:25:19,055 - backend.services.blockchain_client - INFO - Calculated balance for tvlH1K5vci+TNpAi4cIkiKxx0b0A7I9iNMBHaqynvNFFyj3obHLQIiSdRlUK07qlk1HqTvfrBkqsUc0RVunf+Q==: 0
+2025-07-19 08:25:19,057 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 08:25:19] "GET /auth/profile HTTP/1.1" 200 -
+2025-07-19 08:25:29,539 - backend.services.blockchain_client - INFO - Calculated balance for tvlH1K5vci+TNpAi4cIkiKxx0b0A7I9iNMBHaqynvNFFyj3obHLQIiSdRlUK07qlk1HqTvfrBkqsUc0RVunf+Q==: 0
+2025-07-19 08:25:29,543 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 08:25:29] "GET /wallet/info HTTP/1.1" 200 -
+2025-07-19 08:25:38,761 - backend.services.blockchain_client - INFO - Phản hồi từ Node: Status Code=201, Body={"message":"Giao d\u1ecbch s\u1ebd \u0111\u01b0\u1ee3c th\u00eam v\u00e0o Block 16"}
+
+2025-07-19 08:25:38,762 - backend.services.blockchain_client - INFO - Đã gửi giao dịch tới Node: Giao dịch sẽ được thêm vào Block 16
+2025-07-19 08:25:38,793 - backend.services.blockchain_client - INFO - Đã kích hoạt đào block trên Node: Block mới đã được đào và lưu!
+2025-07-19 08:25:38,795 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 08:25:38] "POST /wallet/lend HTTP/1.1" 200 -
+2025-07-19 08:25:52,369 - backend.services.blockchain_client - INFO - Calculated balance for tvlH1K5vci+TNpAi4cIkiKxx0b0A7I9iNMBHaqynvNFFyj3obHLQIiSdRlUK07qlk1HqTvfrBkqsUc0RVunf+Q==: 100000.0
+2025-07-19 08:25:52,372 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 08:25:52] "GET /wallet/info HTTP/1.1" 200 -
+2025-07-19 08:26:16,496 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 08:26:16] "[32mGET /users HTTP/1.1[0m" 308 -
+2025-07-19 08:26:16,504 - backend.services.blockchain_client - INFO - Blockchain Client được khởi tạo, kết nối tới Node: http://127.0.0.1:5000
+2025-07-19 08:26:16,515 - backend.services.blockchain_client - INFO - Calculated balance for MXv6PZ+2tq4ITj3HXUEfrRttBeUfaXo1myk/gLcs4gNrdOidia4320uJyrgmxbi0eKQrQYuzLwmXAbFOlEyC2Q==: 201500.0
+2025-07-19 08:26:16,532 - backend.services.blockchain_client - INFO - Calculated balance for LGLK8tzvv3+WyFdR2tnGYwEa7aQ1xHm2QE1d5zcT8LIRKmcBnwKAgYsLTpIM3ymuRw9CPJZfolBlWnGeyOUudw==: 50.0
+2025-07-19 08:26:16,543 - backend.services.blockchain_client - INFO - Calculated balance for nVNJjdaJ1Aer+wojqKRNzmBVhN5ecp0mteVB/1PCfARqRVwz9l93PB/EdvSqoRuuFYd9gl1YGIgr/0PIrlfaYQ==: 199005.0
+2025-07-19 08:26:16,555 - backend.services.blockchain_client - INFO - Calculated balance for SvGmTCe2b4SPx4JRnGUVEA/7ljKhB1irN9PW1otxxYyP9KAdOYtEA0bX0tdKd8RTEecm2uP1xVmiIWTjCIeRcA==: 0
+2025-07-19 08:26:16,569 - backend.services.blockchain_client - INFO - Calculated balance for 0VtlYI2mXipq0KIwSzGHYMhuwS1Nq82kdygVQHB0KX3LuB+NkaEXVN7xeFzrjy3bFSNz/uVTPhHot04Gd/gXvQ==: 0
+2025-07-19 08:26:16,580 - backend.services.blockchain_client - INFO - Calculated balance for tvlH1K5vci+TNpAi4cIkiKxx0b0A7I9iNMBHaqynvNFFyj3obHLQIiSdRlUK07qlk1HqTvfrBkqsUc0RVunf+Q==: 100000.0
+2025-07-19 08:26:16,582 - backend.routes.user - INFO - Đã trả về danh sách 6 người dùng.
+2025-07-19 08:26:16,585 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 08:26:16] "GET /users/ HTTP/1.1" 200 -
+2025-07-19 08:27:22,316 - backend.services.blockchain_client - INFO - Calculated balance for tvlH1K5vci+TNpAi4cIkiKxx0b0A7I9iNMBHaqynvNFFyj3obHLQIiSdRlUK07qlk1HqTvfrBkqsUc0RVunf+Q==: 100000.0
+2025-07-19 08:27:22,361 - backend.services.blockchain_client - INFO - Phản hồi từ Node: Status Code=201, Body={"message":"Giao d\u1ecbch s\u1ebd \u0111\u01b0\u1ee3c th\u00eam v\u00e0o Block 17"}
+
+2025-07-19 08:27:22,364 - backend.services.blockchain_client - INFO - Đã gửi giao dịch tới Node: Giao dịch sẽ được thêm vào Block 17
+2025-07-19 08:27:22,403 - backend.services.blockchain_client - INFO - Đã kích hoạt đào block trên Node: Block mới đã được đào và lưu!
+2025-07-19 08:27:22,407 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 08:27:22] "[35m[1mPOST /transaction/transfer HTTP/1.1[0m" 201 -
+2025-07-19 08:27:38,891 - backend.services.blockchain_client - INFO - Calculated balance for tvlH1K5vci+TNpAi4cIkiKxx0b0A7I9iNMBHaqynvNFFyj3obHLQIiSdRlUK07qlk1HqTvfrBkqsUc0RVunf+Q==: 90000.0
+2025-07-19 08:27:38,930 - backend.services.blockchain_client - INFO - Phản hồi từ Node: Status Code=201, Body={"message":"Giao d\u1ecbch s\u1ebd \u0111\u01b0\u1ee3c th\u00eam v\u00e0o Block 18"}
+
+2025-07-19 08:27:38,930 - backend.services.blockchain_client - INFO - Đã gửi giao dịch tới Node: Giao dịch sẽ được thêm vào Block 18
+2025-07-19 08:27:38,965 - backend.services.blockchain_client - INFO - Đã kích hoạt đào block trên Node: Block mới đã được đào và lưu!
+2025-07-19 08:27:38,969 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 08:27:38] "[35m[1mPOST /transaction/transfer HTTP/1.1[0m" 201 -
+2025-07-19 08:27:45,527 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 08:27:45] "[32mGET /users HTTP/1.1[0m" 308 -
+2025-07-19 08:27:45,536 - backend.services.blockchain_client - INFO - Blockchain Client được khởi tạo, kết nối tới Node: http://127.0.0.1:5000
+2025-07-19 08:27:45,546 - backend.services.blockchain_client - INFO - Calculated balance for MXv6PZ+2tq4ITj3HXUEfrRttBeUfaXo1myk/gLcs4gNrdOidia4320uJyrgmxbi0eKQrQYuzLwmXAbFOlEyC2Q==: 201500.0
+2025-07-19 08:27:45,558 - backend.services.blockchain_client - INFO - Calculated balance for LGLK8tzvv3+WyFdR2tnGYwEa7aQ1xHm2QE1d5zcT8LIRKmcBnwKAgYsLTpIM3ymuRw9CPJZfolBlWnGeyOUudw==: 50.0
+2025-07-19 08:27:45,568 - backend.services.blockchain_client - INFO - Calculated balance for nVNJjdaJ1Aer+wojqKRNzmBVhN5ecp0mteVB/1PCfARqRVwz9l93PB/EdvSqoRuuFYd9gl1YGIgr/0PIrlfaYQ==: 199005.0
+2025-07-19 08:27:45,590 - backend.services.blockchain_client - INFO - Calculated balance for SvGmTCe2b4SPx4JRnGUVEA/7ljKhB1irN9PW1otxxYyP9KAdOYtEA0bX0tdKd8RTEecm2uP1xVmiIWTjCIeRcA==: 10000.0
+2025-07-19 08:27:45,604 - backend.services.blockchain_client - INFO - Calculated balance for 0VtlYI2mXipq0KIwSzGHYMhuwS1Nq82kdygVQHB0KX3LuB+NkaEXVN7xeFzrjy3bFSNz/uVTPhHot04Gd/gXvQ==: 5000.0
+2025-07-19 08:27:45,615 - backend.services.blockchain_client - INFO - Calculated balance for tvlH1K5vci+TNpAi4cIkiKxx0b0A7I9iNMBHaqynvNFFyj3obHLQIiSdRlUK07qlk1HqTvfrBkqsUc0RVunf+Q==: 85000.0
+2025-07-19 08:27:45,616 - backend.routes.user - INFO - Đã trả về danh sách 6 người dùng.
+2025-07-19 08:27:45,620 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 08:27:45] "GET /users/ HTTP/1.1" 200 -
+2025-07-19 08:29:31,020 - __main__ - INFO - Khởi động Backend Bank App...
+2025-07-19 08:29:31,193 - __main__ - INFO - Backend Flask App đang chạy trên http://127.0.0.1:8000
+2025-07-19 08:29:31,558 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-07-19 08:29:31,558 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 08:29:31,562 - werkzeug - INFO -  * Restarting with stat
+2025-07-19 08:29:34,389 - __main__ - INFO - Khởi động Backend Bank App...
+2025-07-19 08:29:34,445 - __main__ - INFO - Backend Flask App đang chạy trên http://127.0.0.1:8000
+2025-07-19 08:29:34,517 - werkzeug - WARNING -  * Debugger is active!
+2025-07-19 08:29:34,530 - werkzeug - INFO -  * Debugger PIN: 313-600-448
+2025-07-19 08:29:42,737 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 08:29:42] "[32mGET /users HTTP/1.1[0m" 308 -
+2025-07-19 08:29:42,780 - backend.services.blockchain_client - INFO - Blockchain Client được khởi tạo, kết nối tới Node: http://127.0.0.1:5000
+2025-07-19 08:29:42,864 - backend.services.blockchain_client - INFO - Calculated balance for MXv6PZ+2tq4ITj3HXUEfrRttBeUfaXo1myk/gLcs4gNrdOidia4320uJyrgmxbi0eKQrQYuzLwmXAbFOlEyC2Q==: 201500.0
+2025-07-19 08:29:42,910 - backend.services.blockchain_client - INFO - Calculated balance for LGLK8tzvv3+WyFdR2tnGYwEa7aQ1xHm2QE1d5zcT8LIRKmcBnwKAgYsLTpIM3ymuRw9CPJZfolBlWnGeyOUudw==: 50.0
+2025-07-19 08:29:42,945 - backend.services.blockchain_client - INFO - Calculated balance for nVNJjdaJ1Aer+wojqKRNzmBVhN5ecp0mteVB/1PCfARqRVwz9l93PB/EdvSqoRuuFYd9gl1YGIgr/0PIrlfaYQ==: 199005.0
+2025-07-19 08:29:42,967 - backend.services.blockchain_client - INFO - Calculated balance for SvGmTCe2b4SPx4JRnGUVEA/7ljKhB1irN9PW1otxxYyP9KAdOYtEA0bX0tdKd8RTEecm2uP1xVmiIWTjCIeRcA==: 10000.0
+2025-07-19 08:29:42,993 - backend.services.blockchain_client - INFO - Calculated balance for 0VtlYI2mXipq0KIwSzGHYMhuwS1Nq82kdygVQHB0KX3LuB+NkaEXVN7xeFzrjy3bFSNz/uVTPhHot04Gd/gXvQ==: 5000.0
+2025-07-19 08:29:43,036 - backend.services.blockchain_client - INFO - Calculated balance for tvlH1K5vci+TNpAi4cIkiKxx0b0A7I9iNMBHaqynvNFFyj3obHLQIiSdRlUK07qlk1HqTvfrBkqsUc0RVunf+Q==: 85000.0
+2025-07-19 08:29:43,046 - backend.routes.user - INFO - Đã trả về danh sách 6 người dùng.
+2025-07-19 08:29:43,048 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 08:29:43] "GET /users/ HTTP/1.1" 200 -
+2025-07-26 08:28:34,789 - __main__ - INFO - Khởi động Backend Bank App...
+2025-07-26 08:28:34,993 - __main__ - INFO - Backend Flask App đang chạy trên http://127.0.0.1:8000
+2025-07-26 08:28:35,149 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+2025-07-26 08:28:35,150 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-26 08:28:35,153 - werkzeug - INFO -  * Restarting with stat
+2025-07-26 08:28:36,969 - __main__ - INFO - Khởi động Backend Bank App...
+2025-07-26 08:28:37,003 - __main__ - INFO - Backend Flask App đang chạy trên http://127.0.0.1:8000
+2025-07-26 08:28:37,060 - werkzeug - WARNING -  * Debugger is active!
+2025-07-26 08:28:37,072 - werkzeug - INFO -  * Debugger PIN: 143-352-431
